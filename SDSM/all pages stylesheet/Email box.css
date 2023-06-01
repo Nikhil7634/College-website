@@ -1,0 +1,180 @@
+.email-container{
+    width: 95%;
+    min-height: calc(100vh - 100px);
+    margin: auto;
+    background: #2d3161;
+    margin: 70px auto;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background: rgba(2, 178, 99, 0.8);
+}
+.email-container .contact-box{
+    min-height: 400px;
+    width: 40%;
+    background: #6d61f1;
+    margin: 5px 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #32A071;
+}
+.email-container .contact-box img{
+    width: 100%;
+    filter: hue-rotate(290deg);
+}
+.email-container .contact-box .contact-info{
+    width: 100%;
+}
+.email-container .contact-box .contact-info h3{
+    color: white;
+    font-weight: 100;
+    font-size: 0.9rem;
+    position: relative;
+    padding-left: 14px;
+    border-left: 3px solid white;
+}
+.email-container .contact-box .contact-info div{
+    padding-left: 40px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 25px;
+}
+.email-container .contact-box .contact-info div i{
+    height: 30px;
+    width: 30px;
+    left: 0;
+    position: absolute;
+    font-size: 0.6rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid white;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    border-radius: 50%;
+}
+.email-container .contact-box .contact-info div p{
+    color: white;
+    width: 100%;
+    font-size: 0.65rem;
+}
+.email-container .contact-box .contact-info div p a{
+    color: white;
+    text-decoration: none;
+}
+.email-container .mail-box{
+    width: 55%;
+    background: transparent;
+    margin: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-box div:nth-child(3){
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.contact-box div:nth-child(3) a{
+    text-decoration: none;
+}
+.contact-box div:nth-child(3) a i{
+    height: 35px;
+    width: 35px;
+    font-size: 0.8rem;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.contact-box div:nth-child(3) a:nth-child(1) i:hover{
+    color: cyan;
+    border-color: cyan;
+    box-shadow: 0 0 7px 0 cyan;
+}
+.contact-box div:nth-child(3) a:nth-child(2) i:hover{
+    color: rgb(33, 33, 221);
+    border-color: rgb(33, 33, 221);
+    box-shadow: 0 0 7px 0 blue;
+}
+.contact-box div:nth-child(3) a:nth-child(3) i:hover{
+    color: rgb(255, 0, 140);
+    border-color: rgb(255, 0, 140);
+    box-shadow: 0 0 7px 0 purple;
+}
+.contact-box div:nth-child(3) a:nth-child(4) i:hover{
+    color: red;
+    border-color: red;
+    box-shadow: 0 0 7px 0 red;
+}
+.contact-box div:nth-child(3) a:nth-child(5) i:hover{
+  color: white;
+  border-color: rgb(8, 74, 255);
+  box-shadow: 0 0 7px 0 rgb(32, 103, 255);
+}
+.contact-box div:nth-child(3) a i:hover{
+    transform: translateY(-5px);
+    transition: 0.2s;
+}
+.email-container .mail-box input{
+    background: #1E243C;
+    border: 1px solid white;
+    padding: 10px 10px;
+    outline: none;
+    color: white;
+    margin: 10px 0;
+    background: transparent;
+}
+.email-container .mail-box input:nth-child(1){
+    width: 47%;
+}
+.email-container .mail-box input:nth-child(2){
+    width: 47%;
+}
+.email-container .mail-box input:nth-child(3){
+    width: 100%;
+}
+.email-container .mail-box input:nth-child(4){
+    width: 100%;
+    min-height: 130px;
+}
+.email-container .mail-box input::placeholder{
+    color: white;
+}
+.email-container .mail-box button{
+    padding: 10px 15px;
+    margin-top: 15px;
+    background: #fc5744;
+    outline: none;
+    color: white;
+    border-width: 0;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.242);
+    cursor: pointer;
+}
+@media (max-width: 710px){
+    .email-container{
+        width: 95%;
+        padding: 10px 0;
+    }
+    .email-container .contact-box{
+        width: 100%;
+    }
+    .email-container .mail-box{
+        width: 100%;
+        margin-top: 20px;
+    }
+}

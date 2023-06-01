@@ -1,0 +1,414 @@
+@media (max-width: 710px){
+    nav{
+      padding: 2px 15px;
+    }
+    nav a{
+      margin-left: 0px;
+    }
+    nav a h1{
+      font-size: 1.3rem;
+    }
+    nav img{
+      display: block;
+      z-index: 100;
+      filter: invert(0);
+    }
+    nav #searchbar{
+      display: inline-block;
+      position: absolute;
+      right: 65px;
+    }
+    nav ul{
+      height: 60vh;
+      width: 100%;
+      margin-right: 0;
+      position: absolute;
+      height: calc(70vh - 55px);
+      background: #6D61F1;
+      top: 53px;
+      right: 0;
+      flex-wrap: wrap;
+      flex-flow: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      transition: 0.3s;
+      box-shadow: 0 2px 3px rgb(0, 0, 0,0.25);
+      background: white;
+    }
+    .menubar{
+      width: 0;
+    }
+    .slide{
+      width: 100%;
+      transform: rotate(0deg);
+    }
+    nav ul li{
+      margin-top: 0px;
+      width: 100%;
+      text-align: left;
+      display: block;
+      padding: 10px 0;
+      padding-left: 60px;
+      border-bottom: 1px solid rgb(0, 0, 0,0.075);
+    }
+    nav ul li a{
+      font-size: 1.3rem;
+      display: inline-block;
+      margin-left: 0px;
+    }
+    nav ul li:nth-child(5){
+      padding-left: 40px;
+    }
+    nav ul li:nth-child(5) a{
+      padding: 8px 30px;
+      margin-left: 0px;
+      overflow: hidden;
+    }
+    nav ul li:nth-child(5) a:hover{
+      background: orangered;
+    }
+    .main-container{
+      min-height: calc(100vh - 55px);
+      width: 100%;
+      flex-flow: column-reverse;
+    }
+    .main-container-content{
+      width: 100%;
+      padding-bottom: 0px;
+      padding-left: 0%;
+      align-items: center;
+    }
+    .main-container-content h1{
+      width: 100%;
+      z-index: 3;
+      font-weight: 500;
+      font-size: 1.7rem;
+      text-align: center;
+    }
+    .main-container-content h1 span{
+      width: 90%;
+      line-height: 20px;
+      text-align: left;
+      margin-top: 30px;
+    }
+   .main-container-content p{
+     width: 90%;
+     text-align: center;
+     margin-top: 30px;
+    }
+    .main-container-content div{
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      margin-top: 30px;
+      width: 100%;
+      flex-wrap: wrap;
+      margin-bottom: 100px;
+    }
+    .main-container-content div a{
+      margin: 5px 0;
+      width: 75%;
+      text-align: center;
+    }
+    .main-container-content div a:nth-child(1){
+      padding: 12px 0;
+      border-radius: 30px;
+      margin-right: 0;
+    }
+    .main-container-content div a:nth-child(2){
+      padding: 12px 0;
+      border-radius: 30px;
+    }
+    .main-container img{
+      width: 95%;
+      margin-top: 50px;
+      position: relative;
+    }
+    .main-container footer{
+      width: 100%;
+      min-height: 60px;
+      margin-top: 50px;
+      flex-wrap: wrap;
+    }
+    .main-container footer div{
+      transform: scale(0.7);
+    }
+    .container2{
+      width: 100%;
+    }
+    .container2 .container2-courses{
+      width: 100%;
+    }
+    .container2 .container2-courses div{
+      width: 100%;
+      margin-top: 90px;
+    }
+    .container2 .container2-courses div:nth-child(1){
+      margin-top: 20px;
+    }
+  
+  
+  
+    .container2{
+      min-height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column;
+      position: relative;
+    }
+    .container2 h1{
+      text-align: center;
+      font-size: 1.8rem;
+      margin-top: 90px;
+    }
+    .container2 h1 span{
+      font-size: 1rem;
+      letter-spacing: 2px;
+    }
+    .container2 .container2-courses{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 50px;
+      flex-wrap: wrap;
+      padding: 40px 10px;
+      padding-top: 60px;
+      background: transparent;
+    }
+    .container2 .container2-courses div{
+      height: 190px;
+      width: 96%;
+      margin-top: 80px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .container2 .container2-courses div:nth-child(1){
+      margin-top: 0px;
+    }
+    .container2 .container2-courses div h1{
+      font-size: 1.6rem;
+    }
+    .container2 .container2-courses div i{
+      height: 80px;
+      width: 80px;
+      position: absolute;
+      border-radius: 50%;
+    }
+    .container2 .container2-courses div a{
+      height: 40px;
+      bottom: -25px;
+      position: absolute;
+      z-index: 2;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      font-size: 0.8rem;
+      text-decoration: none;
+      padding: 2px 30px;
+    }
+    .container2 .container2-courses div a:hover{
+      height: 45px;
+      padding: 2px 40px;
+      transition: 0.3s;
+    }
+    .container2 .placement{
+      width: 100%;
+    }
+    .container2 .placement h1{
+      width: 100%;
+    }
+    .container2 .placement h1 span{
+      margin-bottom: 0px;
+      display: block;
+    }
+    .container2 .placement p{
+      width: 90%;
+      margin-top: 20px;
+    }
+    .container2 .placement h2 span{
+      font-size: 1.3rem;
+      display: block;
+      margin-top: 15px;
+    }
+    .container2 .placement .companies-box{
+      width: 100%;
+    }
+    .container2 .placement .companies-box div{
+      width: 100%;
+    }
+ 
+    .container3{
+      min-height: 100vh;
+      width: 100%;
+    }
+    .container3 h1{
+      text-align: center;
+      font-size: 1.8rem;
+      margin-top: 70px;
+      width: 95%;
+    }
+    .container3 h1 span{
+      font-size: 1rem;
+      letter-spacing: 2px;
+    }
+    .container3 .container3-blog{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 50px;
+      flex-wrap: wrap;
+      padding: 0px 15px;
+      padding-bottom: 30px;
+      padding-top: 60px;
+    }
+    .container3 .container3-blog section{
+      width: 100%;
+    }
+    .container3 .container3-blog section img{
+      width: 100%;
+    }
+    .container3 .container3-blog section p{
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+    .container3 .container3-blog section h1{
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 20px;
+      text-align: left;
+      font-size: 1.3rem;
+    }
+    .container3 .container3-blog section a{
+      width: 40%;
+    }
+    
+    
+    .container3 .container3-blog .blog-box{
+      width: 100%;
+      border-radius: 7px;
+    }
+    .container3 .container3-blog .blog-box div{
+      min-height: 300px;
+      width: 100%;
+      margin-top: 50px;
+      border-radius: 8px;
+    }
+    .container3 .container3-blog .blog-box div img{
+      width: 100%;
+    }
+    .container3 .container3-blog .blog-box div p{
+      margin: 10px 15px;
+      font-size: 0.8rem;
+    }
+    .container3 .container3-blog .blog-box div h1{
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 10px;
+      text-align: left;
+      font-size: 1rem;
+    }
+    .container3 .container3-blog .blog-box div a{
+      width: 80%;
+      margin-top: 30px;
+    }
+    
+    .container4 .students div{
+      width: 95%;
+    }
+    
+    .container5{
+      width: 100%;
+    }
+    .container5 h1{
+      width: 90%;
+      margin-top: 40px;
+      font-size: 1.6rem;
+    }
+    .container5 h1 a{
+      right: 0;
+      top: 3px;
+    }
+    .container5 .gallery{
+      width: 100%;
+      justify-content: center;
+    }
+    .container5 .gallery div:nth-child(1){
+      width: 96%;
+      margin-top: 0;
+    }
+    .container5 .gallery div:nth-child(2){
+      width: 96%;
+    }
+    .container5 .gallery div:nth-child(3){
+      width: 96%;
+    }
+    .container5 .gallery div:nth-child(4){
+      width: 96%;
+    }
+    .container5 .gallery div:nth-child(5){
+      width: 96%;
+    }
+    .container5 .gallery div:nth-child(6){
+      width: 96%;
+    }
+    .college-commuittee{
+      width: 100%;
+    }
+    .college-commuittee div{
+      width: 50%;
+    }
+
+
+    footer{
+      width: 100%;
+      flex-wrap: wrap;
+      flex-flow: column-reverse;
+    }
+    footer .about{
+      width: 100%;
+      margin-top: 10px;
+    }
+    footer .about h1{
+      text-align: center;
+    }
+    footer .about p{
+      width: 100%;
+      text-align: center;
+    }
+    footer .about div{
+      justify-content: center;
+    }
+    footer .about div i{
+      margin: 0 5px;
+    }
+    footer .useful-link{
+      width: 100%;
+      margin-top: 50px;
+      margin-left: 0;
+      padding: 0;
+    }
+    footer .useful-link ul{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    footer .useful-link ul li{
+      width: 40%;
+    }
+    footer .contact-info{
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  
